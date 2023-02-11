@@ -1,0 +1,56 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: rgba(237, 218, 5, 0.698) ;
+        background-image: url(img/logo_transparent_background.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-attachment: fixed;
+        position: relative;
+        top: 100%;
+    }
+
+        #logo{
+            width: 100%;
+            height: auto;
+        }
+
+        .Responsive{
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            position: relative;
+            top: 120px;
+        }
+        p{
+            font-size: 2em;
+        }
+
+        .Gallery {
+            padding: 5px;
+            font-size: 1.7em;
+            color: rgb(0, 0, 0);
+        }
+
+        .Gallery a{
+                color: red;
+                text-decoration: none;
+        }
+        .Gallery a:hover{
+            cursor: pointer;
+            color: rgba(0, 110, 255, 0.716);
+            text-decoration:underline;
+        }
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{
+    display: none;
+  }
+}

@@ -9,10 +9,8 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: background-slidehsow 20s linear infinite 0s;
+    animation: background-slidehsow 50s ease infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('images/Image_6.png');
   }
 
   /* background-slidehsow */
@@ -28,25 +26,30 @@ body {
         background-image: url('images/Image_6.png');
       } */
   @keyframes background-slidehsow {
-    15% {
-      background-image: url('images/Image_7.png');
-
+    0% {
+      background-image: url('images/Image_6.png');
+      background-color: #006341;
     }
 
     25% {
-      background-image: url('images/Image_4.png');
+      background-image: url('images/Image_7.png');
+      background-color: #006341;
     }
-
-    50% {
+   50% {
       background-image: url('images/Image_3.png');
+      background-color: #FFFFFF;
     }
 
     75% {
       background-image: url('images/Image_2.png');
+      background-color: #C8102E;
+
     }
 
     100% {
       background-image: url('images/Image_1.png');
+      background-color: #C8102E;
+
     }
   }
 
@@ -56,8 +59,8 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    font-family: 'Indie Flower', cursive;
-    text-shadow: -2px 3px 2px rgb(6, 11, 8);
+    font-family: 'Roboto Slab', serif;
+    text-shadow: -5px 9px 5px rgb(0, 0, 0);
     font-size: 3em;
   }
 
@@ -86,16 +89,41 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 80px;
+    top: 5%;
     background: rgb(255, 255, 255, 0.6);
     border-radius: 10%;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.9em;
+    width: 100%;
   }
 
 
 
-  /* GOOGLE */
+
+  .Catering{
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .Catering:hover{
+    background-color: #000000;
+    border: 3px solid #FFD700;
+    font-size: 1em;
+  }
+
+  .Catering a{
+    color: #e51010;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+    .Catering a:hover{
+      color:#FFD700;
+    }
+
+      /* GOOGLE */
   .Google-Map {
     width: 100%;
     border-radius: 30px;
@@ -628,6 +656,6 @@ body {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
-    background-color: blue;
+    display: none;
   }
 }
