@@ -2,13 +2,7 @@
 @media only screen and (max-width: 600px) {
 
     body{
-        background-color: rgba(237, 218, 5, 0.81);
-        background-image: url(img/logo_transparent_background.png);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-attachment: fixed;
-        position: relative;
-        top: 100%;
+
     }
 
         #logo{
@@ -57,14 +51,7 @@
 @media only screen and (min-width: 600px) {
 
   body{
-      background-color: blue;
-      background-image: url("img3/gold-cutlery-set-black-background.jpg");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      position: relative;
-      top: 15vw;
+
   }
 
   #logo{
@@ -137,10 +124,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
   body{
-  background-color: gold;
-  background-image: url("img3/gold-cutlery-set-black-background.jpg");
-  background-position: center;
-  background-size: cover;
+
   }
 
   .BLFM h2{
@@ -207,14 +191,28 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body{
 
   background-color: gold;
-  background-image: url("img3/gold-cutlery-set-black-background.jpg");
-  background-position: center;
-  background-size: cover;
+
+  }
+
+  #background{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
 
   .BLFM h2{
