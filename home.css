@@ -471,9 +471,7 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body{
-    display: none;
-    background-color: blue;
-
+    background-color: rgba(36, 85, 10, 0.72);
     height: 90vh;
     background-position: center center;
     background-size: cover;
@@ -484,27 +482,24 @@ body {
   }
   @keyframes background-slidehsow {
     0% {
-      background-image: url('images/Image_7.png');
-
-    }
-    15% {
       background-image: url('images/Image_6.png');
     }
 
     25% {
-      background-image: url('images/Image_4.png');
+      background-image: url('images/Image_7.png');
     }
-
-    50% {
+   50% {
       background-image: url('images/Image_3.png');
     }
 
     75% {
       background-image: url('images/Image_2.png');
+
     }
 
     100% {
       background-image: url('images/Image_1.png');
+
     }
   }
 
@@ -512,162 +507,210 @@ body {
     .Top{
       display: flex;
       justify-content: space-evenly;
-      flex-direction: row;
-      align-items: center;
-      position: relative;
-      top: 50px;
-      font-size: 3em;
-      font-family: 'Indie Flower', cursive;
-    }
-
-    .Bf{
-      color: #cadbcc;
-      transform: rotate(-40deg);
-      position: relative;
-      top: 100px;
-      left: 40px;
-      text-shadow: 2px 2px 4px black;
-      background-color: rgba(14, 200, 27, 0.45);
-      border-radius: 10px;
-
-    }
-    .Lu{
-      color: rgb(255, 6, 6);
-      padding-right: 20px;
-      position: relative;
-      bottom: 10px;
-      text-shadow: 2px 2px 1px black;
-      background-color: rgba(233, 231, 230, 0.44);
-      border-radius: 10px;
-    }
-
-    .Fies{
-      color: rgb(48, 172, 28);
-      position: relative;
-      left: 50px;
-      bottom: 10px;
-      text-shadow: 2px 2px 2px black;
-      background-color: rgba(233, 231, 230, 0.44);
-      border-radius: 10px;
-
-    }
-    .Mex{
-      color: white;
-      transform: rotate(40deg);
-      position: relative;
-      top: 110px;
-      right: 20px;
-      text-shadow: 2px 2px 2px black;
-      background-color: rgb(233, 7, 7, 0.45);
-      border-radius: 10px;
-
-    }
-
-
-                         /* LINKS */
-    .Links{
-      display: flex;
-      justify-content: center;
       flex-direction: column;
       align-items: center;
-      position: relative;
-      top: 40px;
+      font-family: 'Lobster Two', cursive;
+      font-size: 3.5em;
+
+
+    }
+
+
+  .Bf{
+    position: relative;
+    color: rgb(8, 103, 23);
+    text-shadow: 3px 3px 4px black;
+    left: -200px;
+    top: 60px;
+    font-size: 1.5em;
+}
+
+ .Lu{
+   position: relative;
+   color: white;
+   text-shadow: 3px 3px 4px black;
+    left: 150px;
+    font-size: 1.5em;
+    bottom:  50px;
+
+ }
+
+  .Fies{
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    left: -200px;
+    top: 50px;
+    z-index: 1;
+    font-size: 1.5em;
+    transform: rotate(-30deg);
+
+
+  }
+  .Mex{
+
+    color: rgb(199, 43, 43);
+    text-shadow: 2px 3px 4px black;
+    font-size: 1.5em;
+    bottom: 40px;
+    left: 200px;
+    transform: rotate(30deg);
+    z-index: 1
+
+
+
+  }
+
+                         /* LINKS */
+    .Links {
+      display: flex;
+      flex-direction: column;
+
+      position: absolute;
+      top: 45%;
+      left: 25%;
+      background: rgb(255, 255, 255, 0.6);
+      border-radius: 10%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.9em;
+      width: 50%;
+        align-items: center;
+
+    }
+
+
+
+
+    .Catering{
+      width: 100%;
+      border-radius: 30px;
+      text-align: center;
+      font-weight: bolder;
       font-size: 1.2em;
-
+      font-variant: small-caps;
     }
 
-    a{
+    .Catering:hover{
+      background-color: #000000;
+      border: 2px solid #FFD700;
+      font-size: 1.2em;
+    }
+
+    .Catering a{
+      color: #e51010;
+      font-size: 2em;
       text-decoration: none;
-      list-style-type: none;
     }
 
-    .Google-Map a{
-      color: white;
-      border: 2px solid #47a4d7;
-      font-size: 1.5em;
-      border-radius: 5px;
+      .Catering a:hover{
+        color:#FFD700;
+        font-size: 2em;
+        text-decoration: none;
+      }
+
+        /* GOOGLE */
+    .Google-Map {
+      width: 100%;
+      border-radius: 30px;
+      text-align: center;
       font-weight: bolder;
-      border-left: red;
-      border-right: none;
-      background-color: #0F9D58;
-
-
-    }
-    .Google-Map a:hover {
-      color: #ffffff;
-      background-color: #4285F4;
-      border: 2px solid #ffffff;
-      border-top: none;
-      border-bottom: none;
+      font-size: 1.2em;
+      font-variant: small-caps;
 
 
     }
 
-        /* Facebook */
-    .Facebook a{
-      color: white;
+    .Google-Map:hover {
+      background-color: #F4B400;
       border: 2px solid #0F9D58;
-      font-size: 1.5em;
-      border-radius: 5px;
-      font-weight: bolder;
-      border-left: red;
-      border-right: none;
-      background-color: rgb(7, 17, 148);
+      font-size: 1.2em;
+    }
 
+    .Google-Map a {
+      color: #0F9D58;
+      font-size: 2em;
+      text-decoration: none;
+    }
+
+    .Google-Map a:hover {
+      color: #4285F4;
+    }
+
+    /* FACEBOOK */
+    .Facebook {
+      border-radius: 30px;
+      width: 100%;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1.2em;
+      font-variant: small-caps;
+    }
+
+    .Facebook:hover {
+      background-color: rgb(41, 87, 226);
+      border: 2px solid white;
+      font-size: 1.2em;
+    }
+
+    .Facebook a {
+      text-decoration: none;
+      font-size: 2em;
+      color: #4267B2;
     }
 
     .Facebook a:hover {
+      color: rgb(237, 238, 247);
+    }
 
-      background-color: #4267B2;
-      color: rgb(249, 249, 249);
-      border: 3px solid white;
-      border-top: none;
-      border-bottom: none;
-       }
+    /* TIKTOK */
+    .Tiktok {
+      width: 100%;
+      border-radius: 30px;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1.2em;
+      font-variant: small-caps;
+    }
 
+    .Tiktok a {
+      text-decoration: none;
+      font-size: 2em;
+      color: #ff0050;
+    }
 
-        /*   Tiktok */
-        .Tiktok a{
-          color: #ff0050;
-          border: 2px solid #00f2ea;
-          font-size: 1.5em;
-          border-radius: 5px;
-          font-weight: bolder;
-          border-left: red;
-          border-right: none;
-          background-color: #000000;
-        }
+    .Tiktok a:hover {
+      color: rgb(46, 201, 183);
+    }
 
-        /* Tiktok */
-        .Tiktok a:hover{
-          background-color: #000000;
-          color: #00f2ea;
-          border: 2px solid #ff0050;
-          border-top: none;
-          border-bottom: none;
+    .Tiktok:hover {
+      background-color: #000000;
+      border: 2px solid rgb(46, 201, 183);
+      font-size: 1.2em;
+    }
 
-        }
+    .WhatsApp {
+      width: 100%;
+      border-radius: 30px;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1.2em;
+      font-variant: small-caps;
+    }
 
+    .WhatsApp a {
+      text-decoration: none;
+      font-size: 2em;
+      color: rgb(22, 210, 5);
+    }
 
-        /* WhatsApp */
-      .WhatsApp a{
-        color: white;
-        border: 2px solid #128C7E;
-        font-size: 1.5em;
-        border-radius: 5px;
-        font-weight: bolder;
-        border-left: red;
-        border-right: none;
-        background-color: #33d225;
+    .WhatsApp a:hover {
+      color: rgb(208, 223, 208);
+    }
 
-      }
-      .WhatsApp a:hover {
-        background-color: #00b644;
-        border: 3px solid white;
-        border-top:none;
-        border-bottom: none;
-        color: white;
-      }
+    .WhatsApp:hover {
+      background-color: #2cd53d;
+      border: 2px solid #34B7F1;
+      font-size: 1.2em;
+    }
 
 }
 
