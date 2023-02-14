@@ -2,19 +2,29 @@
 @media only screen and (max-width: 600px) {
 
     body{
-
+      background-color: black;
     }
 
-        #logo{
-            width: 100%;
-            height: auto;
-        }
+    #background{
+      opacity: 0;
+      display: none;
+    }
 
         #catering{
-          display: none;
+          height: auto;
+          width: 95%;
+          position: absolute;
+          bottom: 30%;
+
         }
         .BLFM h2{
-          display: none;
+          color: #FFCC33;
+        position: relative;
+        top: 10px;
+        left: 2vw;
+        font-size: 10vw;
+          text-align: center;
+          z-index: 1;
         }
 
         .Responsive{
@@ -24,19 +34,24 @@
             flex-direction: column;
             position: relative;
             top: 150px;
+            color: #F5D21F;
+            text-shadow: 2px 2px 1px black;
         }
         p{
             font-size: 2em;
+            color: gray;
+            text-shadow: 2px 2px 5px black;
+
         }
 
         .Gallery {
             padding: 5px;
-            font-size: 2.5em;
-            color: rgb(0, 0, 0);
+            font-size: 2em;
+            color: white;
         }
 
         .Gallery a{
-                color: red;
+                color: #F5D21F;
                 text-decoration: none;
         }
         .Gallery a:hover{
@@ -51,7 +66,7 @@
 @media only screen and (min-width: 600px) {
 
   body{
-
+        background-color: white;
   }
 
   #logo{
@@ -65,14 +80,22 @@
     font-family: 'Lobster Two', cursive;
     position: relative;
     z-index: 1;
-    top: 10px;
+    top: 150px;
     color: #CC9933;
     text-shadow: 2px 3px 4px black;
   }
+    #background{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 100%;
+    }
+
 
   #catering{
     position: relative;
-    bottom: 370px;
+    bottom: 270px;
     left: 45%;
     height: 20%;
     width: 50%;
@@ -90,9 +113,9 @@
   }
 
   .Heading h1{
-    color: white;
+    color: #CC9933;
     font-size: 3.5em;
-    text-shadow: 3px 3px 5px #CC9933;
+    text-shadow: 3px 3px 5px #black;
 
   }
   p{
@@ -124,7 +147,6 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
   body{
-
   }
 
   .BLFM h2{
@@ -217,11 +239,11 @@
 
   .BLFM h2{
     color: red;
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
-    top: 400px;
+    top: 300px;
     z-index: 1;
     color: #CC9933;
     text-shadow: 2px 3px 4px black;
@@ -238,8 +260,8 @@
 
   #catering{
   position: relative;
-  top: 10px;
-  left: 22%;
+  top: -200px;
+  left: 50%;
   }
 
   .Responsive{
