@@ -210,7 +210,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body{
-    display: none;
+
   background-color: gold;
   background-image: url("img3/gold-cutlery-set-black-background.jpg");
   background-position: center;
@@ -283,7 +283,6 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
-    display: none;
   background-color: gold;
   background-image: url("img3/gold-cutlery-set-black-background.jpg");
   background-position: center;
