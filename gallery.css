@@ -45,12 +45,139 @@
         }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+
+  body{
+      background-color: rgba(237, 218, 5, 0.81) ;
+      background-image: url(img/logo_transparent_background.png);
+      background-repeat: no-repeat;
+      background-size:contain;
+      background-attachment: fixed;
+      position: relative;
+      top: 15vw;
+  }
+
+  #logo{
+      width: 100%;
+      height: auto;
+  }
+
+  .Responsive{
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+      top: 120px;
+  }
+  p{
+      font-size: 2em;
+  }
+
+  .Gallery {
+      padding: 5px;
+      font-size: 1.7em;
+      color: rgb(0, 0, 0);
+  }
+
+  .Gallery a{
+          color: red;
+          text-decoration: none;
+  }
+  .Gallery a:hover{
+      cursor: pointer;
+      color: rgba(0, 110, 255, 0.716);
+      text-decoration:underline;
+  }
+
+}
 
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+  body{
+  background-color: gold;
+  background-image: url("img3/gold-cutlery-set-black-background.jpg");
+  background-position: center;
+  background-size: cover;
+  }
+
+  .BLFM h2{
+    color: red;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    position: relative;
+    top: 400px;
+    z-index: 1;
+    color: #CC9933;
+    text-shadow: 2px 3px 4px black;
+
+  }
+
+  #white{
+    color: white;
+    text-shadow: 2px 3px 4px black;
+  }
+  #red{
+    color: #CC9933;
+  }
+
+  #catering{
+  position: relative;
+  top: 10px;
+  left: 22%;
+  }
+
+  .Responsive{
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+      font-family: 'Philosopher', sans-serif;
+  }
+  .Heading h1{
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 5px #CC9933;
+
+  }
+
+  p{
+      font-size: 3em;
+  }
+
+  .Gallery {
+      padding: 5px;
+      font-size: 3em;
+      color: white;
+  }
+
+  .Gallery a{
+          color: #CC9933;
+          text-decoration: none;
+  }
+  .Gallery a:hover{
+      cursor: pointer;
+      color: rgba(0, 110, 255, 0.716);
+      text-decoration:underline;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   body{
     display: none;
   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  display: none;
+
 }
