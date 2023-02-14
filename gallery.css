@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
 
     body{
-        background-color: rgba(237, 218, 5, 0.698) ;
+        background-color: rgba(237, 218, 5, 0.81);
         background-image: url(img/logo_transparent_background.png);
         background-repeat: no-repeat;
         background-size:contain;
@@ -16,13 +16,20 @@
             height: auto;
         }
 
+        #catering{
+          display: none;
+        }
+        .BLFM h2{
+          display: none;
+        }
+
         .Responsive{
             text-align: center;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
             position: relative;
-            top: 120px;
+            top: 150px;
         }
         p{
             font-size: 2em;
@@ -30,7 +37,7 @@
 
         .Gallery {
             padding: 5px;
-            font-size: 1.7em;
+            font-size: 2.5em;
             color: rgb(0, 0, 0);
         }
 
@@ -63,7 +70,12 @@
       width: 100%;
       height: auto;
   }
-
+  #catering{
+    display: none;
+  }
+  .BLFM h2{
+    display: none;
+  }
   .Responsive{
       text-align: center;
       display: flex;
@@ -143,7 +155,7 @@
   .Heading h1{
     color: white;
     font-size: 3.5em;
-    text-shadow: 3px 3px 5px #CC9933;
+    text-shadow: 3px 3px 5px #;
 
   }
 
