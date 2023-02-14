@@ -57,7 +57,7 @@
 @media only screen and (min-width: 600px) {
 
   body{
-      background-color: gold;
+      background-color: blue;
       background-image: url("img3/gold-cutlery-set-black-background.jpg");
       background-position: center;
       background-size: cover;
@@ -78,15 +78,17 @@
     font-family: 'Lobster Two', cursive;
     position: relative;
     z-index: 1;
-    top: 310px;
+    top: 10px;
     color: #CC9933;
     text-shadow: 2px 3px 4px black;
   }
 
   #catering{
     position: relative;
-    bottom: 150px;
-    left: 20%;
+    bottom: 370px;
+    left: 45%;
+    height: 20%;
+    width: 50%;
   }
 
 
@@ -208,6 +210,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body{
+    display: none;
   background-color: gold;
   background-image: url("img3/gold-cutlery-set-black-background.jpg");
   background-position: center;
@@ -280,6 +283,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
+    display: none;
   background-color: gold;
   background-image: url("img3/gold-cutlery-set-black-background.jpg");
   background-position: center;
