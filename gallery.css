@@ -300,6 +300,12 @@
   }
 }
 
+
+
+
+
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
@@ -311,11 +317,11 @@
 
   .BLFM h2{
     color: red;
-    font-size: 4em;
+    font-size: 8em;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
-    top: 320px;
+    top: 650px;
     z-index: 1;
     color: #CC9933;
     text-shadow: 2px 3px 4px black;
@@ -347,18 +353,20 @@
   }
   .Heading h1{
     color: white;
-    font-size: 3.5em;
-    text-shadow: 3px 3px 5px #;
+    font-size: 8em;
+    text-shadow: 3px 3px 5px black;
 
   }
 
   p{
       font-size: 3em;
+      color: red;
+      text-shadow: 3px 3px 5px black;
   }
 
   .Gallery {
       padding: 5px;
-      font-size: 3em;
+      font-size: 5em;
       color: white;
   }
 
