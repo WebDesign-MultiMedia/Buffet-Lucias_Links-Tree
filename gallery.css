@@ -39,14 +39,21 @@
         }
         p{
             font-size: 2em;
-            color: gray;
-            text-shadow: 2px 2px 5px black;
-
+            color: rgb(245, 239, 239);
+            text-shadow: 1px 2px 1px rgb(10, 10, 10);
+            font-weight: bolder;
+            background-color: rgba(0, 0, 0, 0.352);
+            width: 100%;
+      
+            
+        }
+        h1{
+          font-size: 3em;
         }
 
         .Gallery {
             padding: 5px;
-            font-size: 2em;
+            font-size: 2.5em;
             color: white;
         }
 
@@ -57,16 +64,42 @@
         .Gallery a:hover{
             cursor: pointer;
             color: rgba(0, 110, 255, 0.716);
-            text-decoration:underline;
+            text-decoration:none;
         }
-}
+
+        .fa-regular{
+          font-size: 0.5em;
+        }
+
+        .fa-solid {
+          font-size: 2em;
+          color: rgb(36, 32, 32);
+          position: fixed;
+          top: 20px;
+          z-index: 1;
+        }
+        .fa-solid:hover{
+          color: blue;
+        }
+        
+      }
+
+
+
+
+
+
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
 
   body{
-        background-color: white;
+        background-color: rgb(27, 25, 25);
+        
   }
 
   #logo{
@@ -75,12 +108,12 @@
   }
   .BLFM h2{
     color: red;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
     z-index: 1;
-    top: 150px;
+    top: 250px;
     color: #CC9933;
     text-shadow: 2px 3px 4px black;
   }
@@ -115,13 +148,14 @@
   .Heading h1{
     color: #CC9933;
     font-size: 3.5em;
-    text-shadow: 3px 3px 5px #black;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
 
   }
   p{
       font-size: 2.3em;
-      color: #CC9933;
-      text-shadow: 2px 2px 1px black;
+      color: #e4e4e4;
+      text-shadow: 2px 2px 4px black;
+          
   }
 
   .Gallery {
@@ -137,21 +171,43 @@
   .Gallery a:hover{
       cursor: pointer;
       color: rgba(0, 110, 255, 0.716);
-      text-decoration:underline;
+      text-decoration:none;
+  }
+  .fa-regular{
+    font-size: 0.5em;
+  }
+  .fa-solid {
+    font-size: 2em;
+    color: rgb(36, 32, 32);
+    position: fixed;
+    top: 20px;
+    z-index: 1;
+  }
+  .fa-solid:hover{
+    color: rgba(241, 241, 242, 0.651);
   }
 
 }
 
 
 
+
+
+
+
+
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
   body{
+    background-color: rgb(64, 214, 214);
   }
 
   .BLFM h2{
-    color: red;
-    font-size: 4em;
+    
+    font-size: 4.5em;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
@@ -182,12 +238,14 @@
       justify-content: space-between;
       flex-direction: column;
       position: relative;
+      top: 0;
       font-family: 'Philosopher', sans-serif;
   }
   .Heading h1{
-    color: white;
+    color: #CC9933;
     font-size: 3.5em;
-    text-shadow: 3px 3px 5px #;
+    text-shadow: 3px 3px 5px black;
+ 
 
   }
 
@@ -210,6 +268,10 @@
       color: rgba(0, 110, 255, 0.716);
       text-decoration:underline;
   }
+  .fa-regular{
+    font-size: 0.5em;
+  }
+
 }
 
 
@@ -226,7 +288,8 @@
 @media only screen and (min-width: 992px) {
   body{
 
-  background-color: gold;
+  background-color: rgb(0, 0, 0);
+  bottom: 0;
 
   }
 
@@ -238,15 +301,15 @@
   }
 
   .BLFM h2{
-    color: red;
-    font-size: 4.5em;
+
+    font-size: 10em;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
     top: 300px;
     z-index: 1;
     color: #CC9933;
-    text-shadow: 2px 3px 4px black;
+    text-shadow: 2px 3px 6px rgb(3, 2, 2);
 
   }
 
@@ -260,32 +323,34 @@
 
   #catering{
   position: relative;
-  top: -200px;
-  left: 50%;
+  top: -630px;
+  left: 45%;
   }
 
   .Responsive{
-      text-align: center;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      position: relative;
-      font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: -200px;
+    font-family: 'Philosopher', sans-serif;
   }
   .Heading h1{
     color: white;
-    font-size: 3.5em;
-    text-shadow: 3px 3px 5px #;
-
+    font-size: 5em;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    
   }
 
   p{
       font-size: 3em;
+      color: gray;
   }
 
   .Gallery {
       padding: 5px;
-      font-size: 3em;
+      font-size: 4em;
       color: white;
   }
 
@@ -296,9 +361,18 @@
   .Gallery a:hover{
       cursor: pointer;
       color: rgba(0, 110, 255, 0.716);
-      text-decoration:underline;
+      text-decoration: none;
+  }
+
+  .fa-regular {
+    font-size: 0.5em;
   }
 }
+
+
+
+
+
 
 
 
@@ -309,15 +383,15 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body{
-  background-color: gold;
+  background-color: #CC9933;
   background-image: url("img3/gold-cutlery-set-black-background.jpg");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
   }
 
-  .BLFM h2{
-    color: red;
-    font-size: 8em;
+   h2{
+    color: rgb(0, 8, 255);
+    font-size: 1px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     position: relative;
@@ -360,8 +434,8 @@
 
   p{
       font-size: 3em;
-      color: red;
-      text-shadow: 3px 3px 5px black;
+      color: rgba(4, 4, 4, 0.76);
+      text-shadow: 1px 1px 5px white;
   }
 
   .Gallery {
